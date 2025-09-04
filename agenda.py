@@ -1,7 +1,7 @@
 #Agenda
 contactos = []
 def agregar_contacto(nombre,telefono):
-    contacto.append({"nombre": nombre, "telefono": telefono})
+    contactos.append({"nombre": nombre, "telefono": telefono})
 
 def listar_contactos():
     print("\nLista de contactos : ")

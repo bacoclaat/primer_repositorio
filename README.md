@@ -9,3 +9,6 @@ hola my primer GIT - INACAP 2025 - 2do - Semestre
 # Agenda de contactos
 Proyecto simple de consola para registrar, buscar y listar contactos utilizando Python
 
+## Agenda.py
+    se creo la definicion de agregar contactos
+    se creo la funcion de listar contactos

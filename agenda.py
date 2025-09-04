@@ -15,14 +15,9 @@ def buscar_contacto(nombre):
         else:
             print("Contacto no encontrado")
 
-listar_contactos()
 #nombre = input("Ingresa el nombre : ")
 #telefono = input("Ingresa el telefono : ")
 #agregar_contacto(nombre,telefono)
 #print("Contacto agregado")
 
 
-nombre = input("Ingrese el nombre: ")
-telefono = input("Ingrese el telefono: ")
-agregar_contacto(nombre,telefono)
-print("Contacto Agregado")

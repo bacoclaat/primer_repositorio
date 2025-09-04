@@ -1,12 +1,26 @@
 #Agenda
-contacto = []
+contactos = []
 def agregar_contacto(nombre,telefono):
     contacto.append({"nombre": nombre, "telefono": telefono})
 
 def listar_contactos():
     print("\nLista de contactos : ")
     for c in contactos:
-        print(f"{c["nombre"]} - {c["telefono"]}")
+        print(f"{c['nombre']} - {c['telefono']}")
+
+def buscar_contacto(nombre):
+    for c in contactos:
+        if c["nombre"].lower() == nombre.lower():
+            print(f"Contacto encontrado : {c['nombre']} - {c['telefono']}")
+        else:
+            print("Contacto no encontrado")
+
+listar_contactos()
+#nombre = input("Ingresa el nombre : ")
+#telefono = input("Ingresa el telefono : ")
+#agregar_contacto(nombre,telefono)
+#print("Contacto agregado")
+
 
 nombre = input("Ingrese el nombre: ")
 telefono = input("Ingrese el telefono: ")
